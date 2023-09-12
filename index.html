@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="row">
+          <div class="col form-group">
+            <label for="first">Primeiro nome</label>
+            <input type="text" id="first" class="form-control" />
+          </div>
+          <div class="col form-group">
+            <label for="last">Último nome</label>
+            <input type="text" name="last" class="form-control" />
+          </div>
+        </div>
+        <hr />
+        <div class="col-sm-3 form-group">
+          <label for="zipcode">CEP</label>
+          <input
+            type="number"
+            name="zipcode"
+            id="zipcode"
+            class="form-control"
+          />
+        </div>
+        <div class="row">
+          <div class="col-sm-9 form-group">
+            <label for="adress">Endereço</label>
+            <input type="text" name="adress" id="adress" class="form-control" />
+          </div>
+          <div class="col-sm-3 form-group">
+            <label for="number">Número</label>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="complement">Complemento</label>
+            <input
+              type="text"
+              name="complement"
+              id="complement"
+              class="form-control"
+            />
+          </div>
+          <div class="col-sm-6 form-group">
+            <label for="district">Bairro</label>
+            <input
+              type="district"
+              name="district"
+              id="district"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 form-group">
+            <label for="city">Cidade</label>
+            <input type="text" name="city" id="city" class="form-control" />
+          </div>
+          <div class="col-sm-4 form-group">
+            <label for="state">Estado</label>
+            <input type="state" name="state" id="state" class="form-control" />
+          </div>
+          <div class="col-sm-4 form-group">
+            <label for="country">País</label>
+            <input
+              type="country"
+              name="country"
+              id="country"
+              class="form-control"
+            />
+          </div>
+        </div>
+
+        <div class="row p-2">
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
